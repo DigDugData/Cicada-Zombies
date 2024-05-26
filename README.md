@@ -58,6 +58,8 @@ emerging-cicada-broods
 spring-as-two-broods-emerge-at-the-same-time
 
 [6] https://images.cv/dataset/cicada-image-classification-dataset
+
+[7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9584336/
  
 
 

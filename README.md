@@ -46,12 +46,17 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 
 ## References
 [1] https://www.inaturalist.org/
-[1] https://www.cicadamania.com/
+
+[2] https://www.cicadamania.com/
+
 [3] https://cicadas.uconn.edu
+
 [4] https://www.npr.org/2024/05/01/1248545162/a-bizarre-fungus-is-threatening-two-
 emerging-cicada-broods
+
 [5] https://www.npr.org/2024/01/21/1225925053/billions-of-cicadas-will-buzz-this-
 spring-as-two-broods-emerge-at-the-same-time
+
 [6] https://images.cv/dataset/cicada-image-classification-dataset
  
 

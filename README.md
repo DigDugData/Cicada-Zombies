@@ -22,6 +22,18 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 - **Extensive Data Exploration:**
 - **Models:** Popular convolutional neural network architectures such as ResNet, VGG16, VGG19 and Inception are used dataset for image classification.
 
+## Key Performance Indicators (KPIs)
+- Model prediction accuracy
+- Model prediction precision
+- Model prediction recall
+
+## EDA
+
+
+
+
+## Neural Network
+
 
 
 ## Possible Future Work
@@ -32,17 +44,15 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 
 
 
-
-## EDA
-
-
-
-
-## Neural Network
-
-
-## Sources
-[1]
-[2] 
+## References
+[1] https://www.inaturalist.org/
+[1] https://www.cicadamania.com/
+[3] https://cicadas.uconn.edu
+[4] https://www.npr.org/2024/05/01/1248545162/a-bizarre-fungus-is-threatening-two-
+emerging-cicada-broods
+[5] https://www.npr.org/2024/01/21/1225925053/billions-of-cicadas-will-buzz-this-
+spring-as-two-broods-emerge-at-the-same-time
+[6] https://images.cv/dataset/cicada-image-classification-dataset
+ 
 
 

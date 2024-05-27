@@ -18,7 +18,7 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 
 ## Project Overview
 
-- **Dataset:** The project uses images of healthy and infected cicadas from various websites such as National Library of Medicine,- GenBank, iNaturalist.
+- **Dataset:** The project uses images of healthy and infected cicadas from various websites such as National Library of Medicine, GenBank, iNaturalist.
 - **Extensive Data Exploration:**
 - **Models:** Popular convolutional neural network architectures such as ResNet, VGG16, VGG19 and Inception are used dataset for image classification.
 
@@ -27,13 +27,20 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 - Model prediction precision
 - Model prediction recall
 
-## EDA
+## Neural Network Models
 
+### Definitions and Terminology
 
+ADD A LINK HERE!!!
 
+### Very Deep Convolutional Networks for Large-Scale Image Recognition (VGG)
+The VGG-16 is one of the most popular pre-trained models for image classification. The VGG model has the following layers: convolutional layers = 13, pooling layers = 5, dense layers = 3
 
-## Neural Network
+### Inception
+The inception module performs convolutions with different filter sizes on the input, performs max pooling, and concatenates the result for the next Inception module. The number of layers is 42, compared to VGG16’s paltry 16 layers.
 
+### ResNet50
+The main motivation behind this image classification model was to avoid poor accuracy as the model went on to become deeper. After starting with a single convolutional layer and max pooling, there are 4 similar layers with varying filter sizes – all of them using 3 * 3 convolution operation. Also, after every 2 convolutions, we are bypassing/skipping the layer in between. This is the main concept behind the ResNet models. These skipped connections are called identity shortcut connections and use what we call residual blocks.
 
 
 ## Possible Future Work
@@ -43,7 +50,7 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 - Development of a final product possibly mobile app.
 
 ## Acknowledgements
-
+We would like to thank the following people for the helpful suggestions they made while we were working on this project: Roman Holowinsky, Steven Gubkin, Bailey Forster, Eugeniusz Tralle, Godfrey Dzhivhuho.
 
 
 ## References
@@ -60,6 +67,8 @@ emerging-cicada-broods
 spring-as-two-broods-emerge-at-the-same-time
 
 [6] https://images.cv/dataset/cicada-image-classification-dataset
+
+[7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9584336
 
 [7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9584336/
  

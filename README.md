@@ -42,6 +42,8 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 - Examine how climate change and warmer soil temperatures impact the timing of emergence of cicadas.
 - Development of a final product possibly mobile app.
 
+## Acknowledgements
+
 
 
 ## References

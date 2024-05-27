@@ -19,7 +19,7 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 ## Project Overview
 
 - **Dataset:** The project uses images of healthy and infected cicadas from various websites such as National Library of Medicine, GenBank, iNaturalist (https://drive.google.com/drive/folders/1jU4Hkq3MYyvOOWER5Q3_TZXKH4Qzp95g?usp=sharing)
-- **Models:** Popular convolutional neural network architectures such as ResNet, VGG16, VGG19 and Inception are used dataset for image classification.
+- **Models:** Popular convolutional neural network architectures such as ResNet50, VGG16, VGG19 and InceptionV2 are used dataset for image classification.
 
 ## Key Performance Indicators (KPIs)
 - Model prediction accuracy
@@ -35,7 +35,7 @@ Here is a pdf file with definitions and terminology coming from neural networks 
 ### Very Deep Convolutional Networks for Large-Scale Image Recognition (VGG)
 The VGG-16 is one of the most popular pre-trained models for image classification. The VGG model has the following layers: convolutional layers = 13, pooling layers = 5, dense layers = 3
 
-### Inception
+### InceptionV2
 The inception module performs convolutions with different filter sizes on the input, performs max pooling, and concatenates the result for the next Inception module. The number of layers is 42, compared to VGG16’s paltry 16 layers.
 
 ### ResNet50

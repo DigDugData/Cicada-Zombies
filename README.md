@@ -1,6 +1,6 @@
 # Cicada Zombies: classification of cicadas affected with Massospora cicadina fungus using image data
 
-This spring, two broods of periodical cicadas (among seven) will emerge in parts of the South and the Midwest singing their love songs. The co-emergence of these two broods has not happened since Thomas Jefferson was president. Like many animals, they, too, are susceptible to diseases. And one of those diseases they get is a fungal infection by a fungus called Massospora cicadina where a third of the body has been replaced with fungal tissue. This causes something called active host transmission causing erratic mating behavior spreading the disease (basically making other Cicada "Zombies").  Also, a possible factor is the impact of climate change since broods emerge at specific soil temperatures and this year is predicted to be the hottest year on record. In this project we identify if a cicada has the cicadina fungus or not based on image data. We use several image recognition models such as VGG16. VGG19, ResNet and Inception.  
+This spring, two broods of periodical cicadas (among seven) will emerge in parts of the South and the Midwest singing their love songs. The co-emergence of these two broods has not happened since Thomas Jefferson was president. Like many animals, they, too, are susceptible to diseases. And one of those diseases they get is a fungal infection by a fungus called Massospora cicadina where a third of the body has been replaced with fungal tissue. This causes something called active host transmission causing erratic mating behavior spreading the disease (basically making other Cicada "Zombies").  Also, a possible factor is the impact of climate change since broods emerge at specific soil temperatures and this year is predicted to be the hottest year on record. In this project we identify if a cicada has the cicadina fungus or not based on image data. We use several image recognition models such as VGG16. VGG19, ResNet and Inception to tackle our problem. Our project was originally inspired by [7].   
 
 ## Team Members:
 
@@ -18,8 +18,7 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 
 ## Project Overview
 
-- **Dataset:** The project uses images of healthy and infected cicadas from various websites such as National Library of Medicine, GenBank, iNaturalist.
-- **Extensive Data Exploration:**
+- **Dataset:** The project uses images of healthy and infected cicadas from various websites such as National Library of Medicine, GenBank, iNaturalist (https://drive.google.com/drive/folders/1jU4Hkq3MYyvOOWER5Q3_TZXKH4Qzp95g?usp=sharing)
 - **Models:** Popular convolutional neural network architectures such as ResNet, VGG16, VGG19 and Inception are used dataset for image classification.
 
 ## Key Performance Indicators (KPIs)
@@ -31,7 +30,7 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 
 ### Definitions and Terminology
 
-ADD A LINK HERE!!!
+Here is a pdf file with definitions and terminology coming from neural networks and biology, which are needed for this project: https://drive.google.com/file/d/1oY2c7W0Gb51phnkFppvvztYeUuuGK-Q4/view?usp=sharing
 
 ### Very Deep Convolutional Networks for Large-Scale Image Recognition (VGG)
 The VGG-16 is one of the most popular pre-trained models for image classification. The VGG model has the following layers: convolutional layers = 13, pooling layers = 5, dense layers = 3

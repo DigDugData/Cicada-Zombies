@@ -21,9 +21,11 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 - **Models:** Popular convolutional neural network architectures such as ResNet50, VGG16, VGG19 and InceptionV2 are used dataset for image classification.
 
 ## Key Performance Indicators (KPIs)
-- Model prediction accuracy
+- F1 score
 - Model prediction precision
 - Model prediction recall
+- Model prediction accuracy
+
 
 ## Neural Network Models
 

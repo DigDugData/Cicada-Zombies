@@ -50,7 +50,7 @@ The main motivation behind this image classification model was to avoid poor acc
 - Development of a final product possibly mobile app.
 
 ## Acknowledgements
-We would like to thank the following people for the helpful suggestions they made while we were working on this project: Roman Holowinsky, Steven Gubkin, Bailey Forster, Eugeniusz Tralle, Godfrey Dzhivhuho.
+We would like to thank the following people for the helpful suggestions they made while we were working on this project: Roman Holowinsky, Steven Gubkin, Bailey Forster, Alec Clott, Eugeniusz Tralle, Godfrey Dzhivhuho.
 
 
 ## References

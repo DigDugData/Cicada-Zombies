@@ -7,7 +7,6 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 - [Douglas Stauffer](https://www.linkedin.com/in/douglas-stauffer-r/)
 - [Prayagdeep Parija](https://www.linkedin.com/in/prayagdeep-parija-b2626499/)
 - [Wojciech Tralle](https://www.linkedin.com/in/wojciech-tralle-9574822b9/)
-- [Katherine Martin](https://www.linkedin.com/in/katherine-martin-153397149/)
 - [Henry Tucker](https://www.linkedin.com/in/henryjtucker/)
 
 ## Key Stakeholders

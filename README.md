@@ -34,7 +34,12 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 Here is a pdf file with definitions and terminology coming from neural networks and biology, which are needed for this project: https://drive.google.com/file/d/1oY2c7W0Gb51phnkFppvvztYeUuuGK-Q4/view?usp=sharing
 
 ### Very Deep Convolutional Networks for Large-Scale Image Recognition (VGG)
-The VGG-16 is one of the most popular pre-trained models for image classification. The VGG model has the following layers: convolutional layers = 13, pooling layers = 5, dense layers = 3
+The VGG-16 is one of the most popular pre-trained models for image classification. The VGG model has the following layers: convolutional layers = 13, pooling layers = 5, dense layers = 3. Here is the architecture of VGG-16:
+
+![vgg16-neural-network](https://github.com/DigDugData/Cicada-Zombies/assets/122245444/18756380-95db-41e0-8f45-7a01e0233132)
+
+
+
 
 ### InceptionV2
 The inception module performs convolutions with different filter sizes on the input, performs max pooling, and concatenates the result for the next Inception module. The number of layers is 42, compared to VGG16’s paltry 16 layers.

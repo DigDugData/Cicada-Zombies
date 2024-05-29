@@ -1,6 +1,6 @@
 # Cicada Zombies: classification of cicadas affected with Massospora Cicadina using image data
 
-This spring, two broods of periodical cicadas (among seven) will emerge in parts of the South and the Midwest singing their love songs. The co-emergence of these two broods has not happened since Thomas Jefferson was president. Like many animals, they, too, are susceptible to diseases. And one of those diseases they get is a fungal infection by a fungus called Massospora cicadina where a third of the body has been replaced with fungal tissue. This causes something called active host transmission causing erratic mating behavior spreading the disease (basically making other Cicada "Zombies").  Also, a possible factor is the impact of climate change since broods emerge at specific soil temperatures and this year is predicted to be the hottest year on record. In this project we identify if a cicada has the cicadina fungus or not based on image data. We use several image recognition models such as VGG16. VGG19, ResNet and Inception to tackle our problem. Our project was originally inspired by [7].   
+This spring, two broods of periodical cicadas (among seven) will emerge in parts of the South and the Midwest singing their love songs. The co-emergence of these two broods has not happened since Thomas Jefferson was president. Like many animals, they, too, are susceptible to diseases. And one of those diseases they get is a fungal infection by a fungus called Massospora cicadina where a third of the body has been replaced with fungal tissue. This causes something called active host transmission causing erratic mating behavior spreading the disease (basically making other Cicada "Zombies").  Also, a possible factor is the impact of climate change since broods emerge at specific soil temperatures and this year is predicted to be the hottest year on record. In this project we identify if a cicada has the cicadina fungus or not based on image data. We use several image recognition models such as VGG16. VGG19, ResNet and Inception to tackle our problem. Our project was originally inspired by [1].   
 
 ## Team Members:
 
@@ -21,6 +21,7 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 - **Models:** Popular convolutional neural network architectures such as ResNet50, VGG16, VGG19 and InceptionV2 are used dataset for image classification.
 
 ## Key Performance Indicators (KPIs)
+
 - F1 score
 - Model prediction precision
 - Model prediction recall
@@ -28,7 +29,7 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 
 ## Neural Network Models
 
-### Definitions and Terminology
+### Terminology
 
 Here is a pdf file with definitions and terminology coming from neural networks and biology, which are needed for this project: https://drive.google.com/file/d/1oY2c7W0Gb51phnkFppvvztYeUuuGK-Q4/view?usp=sharing
 
@@ -58,23 +59,25 @@ We would like to thank the following people for the helpful suggestions they mad
 
 
 ## References
-[1] https://www.inaturalist.org/
+[1] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9584336
 
-[2] https://www.cicadamania.com/
+[2] https://www.inaturalist.org/
 
-[3] https://cicadas.uconn.edu
+[3] https://www.cicadamania.com/
 
-[4] https://www.npr.org/2024/05/01/1248545162/a-bizarre-fungus-is-threatening-two-
+[4] https://cicadas.uconn.edu
+
+[5] https://www.npr.org/2024/05/01/1248545162/a-bizarre-fungus-is-threatening-two-
 emerging-cicada-broods
 
-[5] https://www.npr.org/2024/01/21/1225925053/billions-of-cicadas-will-buzz-this-
+[6] https://www.npr.org/2024/01/21/1225925053/billions-of-cicadas-will-buzz-this-
 spring-as-two-broods-emerge-at-the-same-time
 
-[6] https://images.cv/dataset/cicada-image-classification-dataset
+[7] https://images.cv/dataset/cicada-image-classification-dataset
 
-[7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9584336
 
-[7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9584336/
+
+
  
 
 

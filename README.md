@@ -26,7 +26,6 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 - Model prediction recall
 - Model prediction accuracy
 
-
 ## Neural Network Models
 
 ### Definitions and Terminology
@@ -50,9 +49,9 @@ The main motivation behind this image classification model was to avoid poor acc
 
 ## Possible Future Work
 
-- Determine how bioclimatic variables influence infection rates in cicadas.
-- Examine how climate change and warmer soil temperatures impact the timing of emergence of cicadas.
-- Development of a final product possibly mobile app.
+- Determine how bioclimatic variables influence infection rates in cicadas,
+- Examine how climate change and warmer soil temperatures impact the timing of emergence of cicadas,
+- Development of a final product possibly a mobile app.
 
 ## Acknowledgements
 We would like to thank the following people for the helpful suggestions they made while we were working on this project: Roman Holowinsky, Steven Gubkin, Bailey Forster, Alec Clott, Eugeniusz Tralle, Godfrey Dzhivhuho.

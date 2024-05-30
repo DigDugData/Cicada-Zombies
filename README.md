@@ -33,20 +33,20 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 
 Here is a pdf file with definitions and terminology coming from neural networks and biology, which are needed for this project: https://drive.google.com/file/d/1oY2c7W0Gb51phnkFppvvztYeUuuGK-Q4/view?usp=sharing
 
-### Very Deep Convolutional Networks for Large-Scale Image Recognition (VGG)
+### Very Deep Convolutional Networks for Large-Scale Image Recognition (VGG):
+#### VGG16
 The VGG-16 is one of the most popular pre-trained models for image classification. The VGG model has the following layers: convolutional layers = 13, pooling layers = 5, dense layers = 3. Here is the architecture of VGG-16:
 
 ![vgg16-neural-network](https://github.com/DigDugData/Cicada-Zombies/assets/122245444/18756380-95db-41e0-8f45-7a01e0233132)
+
+#### VGG19
+![resnet_arch-ezgif com-webp-to-jpg-converter](https://github.com/DigDugData/Cicada-Zombies/assets/122245444/102acd1f-d4e8-43b2-a93e-2d70f5f67a8e)
 
 ### InceptionV2
 The inception module performs convolutions with different filter sizes on the input, performs max pooling, and concatenates the result for the next Inception module. The number of layers is 42, compared to VGG16’s paltry 16 layers.
 
 <img width="1069" alt="inception module, png" src="https://github.com/DigDugData/Cicada-Zombies/assets/122245444/d0fdc96f-e3d2-434d-be72-ee0599791f31">
 
-### ResNet50
-The main motivation behind this image classification model was to avoid poor accuracy as the model went on to become deeper. After starting with a single convolutional layer and max pooling, there are 4 similar layers with varying filter sizes – all of them using 3 * 3 convolution operation. Also, after every 2 convolutions, we are bypassing/skipping the layer in between. This is the main concept behind the ResNet models. These skipped connections are called identity shortcut connections and use what we call residual blocks. Here is the architecture of the earliest variant or ResNet: ResNet34 (ResNet50 also follows a similar technique with just more layers):
-
-![resnet_arch-ezgif com-webp-to-jpg-converter](https://github.com/DigDugData/Cicada-Zombies/assets/122245444/b16b9edf-2e7d-482a-b550-d2a35edee2a3)
 
 ## Possible Future Work
 

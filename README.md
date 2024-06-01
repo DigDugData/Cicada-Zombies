@@ -31,7 +31,7 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 
 ### Terminology
 
-Here is a pdf file with definitions and terminology coming from neural networks and biology, which are needed for this project: https://drive.google.com/file/d/1oY2c7W0Gb51phnkFppvvztYeUuuGK-Q4/view?usp=sharing
+Here is a pdf file with definitions and terminology coming from neural networks and biology, which are needed for this project: [https://drive.google.com/file/d/1oY2c7W0Gb51phnkFppvvztYeUuuGK-Q4/view?usp=sharing](https://drive.google.com/file/d/1yj96EAhcNbxIWDwcLMoufSFzMHEO33rz/view?usp=sharing)
 
 ### Very Deep Convolutional Networks for Large-Scale Image Recognition (VGG):
 #### VGG16

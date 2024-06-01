@@ -48,6 +48,7 @@ The inception module performs convolutions with different filter sizes on the in
 
 <img width="1069" alt="inception module, png" src="https://github.com/DigDugData/Cicada-Zombies/assets/122245444/d0fdc96f-e3d2-434d-be72-ee0599791f31">
 
+We refer the reader to [8] for more detailed descriptions of these models. 
 
 ## Possible Future Work
 

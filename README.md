@@ -17,7 +17,7 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 
 ## Project Overview
 
-- **Dataset:** The project uses images of healthy and infected cicadas from the website iNaturalist (see [2]). Here are the three data sets we used: (https://drive.google.com/drive/folders/1lUIevYIklh7wMc_wprgK0JPmYvyjSWjn?usp=sharing, https://drive.google.com/drive/folders/1fDDD6-m71PEcGHrk1am9Q6_RhZPa9sMA?usp=sharing and https://drive.google.com/drive/folders/1XGuhpRTFM2U8Hha09kza5wdCymd-uWNu?usp=sharing)
+- **Dataset:** The project uses images of healthy and infected cicadas from the website iNaturalist (see [2]). We used three different data sets and ran the three models VGG16, VGG19 and InceptionV2 on each of the data sets. Here are the three data sets we used: (a) https://drive.google.com/drive/folders/1lUIevYIklh7wMc_wprgK0JPmYvyjSWjn?usp=sharing, (b) https://drive.google.com/drive/folders/1fDDD6-m71PEcGHrk1am9Q6_RhZPa9sMA?usp=sharing, (c) https://drive.google.com/drive/folders/1XGuhpRTFM2U8Hha09kza5wdCymd-uWNu?usp=sharing. We had to clean up our data sets by : removing images with multiple cicadas or no cicadas. We stratified the data set into a 60% Test, 15% Validatation and 25% Train. We chose to do a 66-34 % split between healthy and infected cicadas.   
 - **Models:** Popular convolutional neural network architectures such as VGG16, VGG19 and InceptionV2 are used dataset for image classification (see [8]).
 
 ## Key Performance Indicators (KPIs)

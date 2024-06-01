@@ -1,6 +1,6 @@
 # Cicada Zombies: classification of cicadas affected with Massospora Cicadina using image data
 
-This spring, two broods of periodical cicadas (among seven) will emerge in parts of the South and the Midwest singing their love songs. The co-emergence of these two broods has not happened since Thomas Jefferson was president. Like many animals, they, too, are susceptible to diseases. And one of those diseases they get is a fungal infection by a fungus called Massospora cicadina where a third of the body has been replaced with fungal tissue. This causes something called active host transmission causing erratic mating behavior spreading the disease (basically making other Cicada "Zombies").  Also, a possible factor is the impact of climate change since broods emerge at specific soil temperatures and this year is predicted to be the hottest year on record. In this project we identify if a cicada has the cicadina fungus or not based on image data. We use several image recognition models such as VGG16. VGG19, ResNet and Inception to tackle our problem. Our project was originally inspired by [1].   
+This spring, two broods of periodical cicadas (among seven) will emerge in parts of the South and the Midwest singing their love songs. The co-emergence of these two broods has not happened since Thomas Jefferson was president. Like many animals, they, too, are susceptible to diseases. And one of those diseases they get is a fungal infection by a fungus called Massospora cicadina where a third of the body has been replaced with fungal tissue. This causes something called active host transmission causing erratic mating behavior spreading the disease (basically making other Cicada "Zombies").  Also, a possible factor is the impact of climate change since broods emerge at specific soil temperatures and this year is predicted to be the hottest year on record. In this project we identify if a cicada has the cicadina fungus or not based on image data. We use several image recognition models such as VGG16. VGG19 and InceptionV2 to tackle our problem. Our project was originally inspired by [1].   
 
 ## Team Members:
 
@@ -11,14 +11,14 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 
 ## Key Stakeholders
 
-- **Entomologists:** The phenomenon offers scientists a unique opportunity to delve deeper into the intricate world of these enigmatic vocalists. So, experts are leaping at the chance to further unravel the mysteries of cicada biogeography, evolutionary adaptations, and the ecological significance of their cyclical emergence.
-- **Pharmaceutical research scientists:** Understanding the phenomenon can have potential impact on medical research on fungal diseases in humans.
-- **Cicada enthusiasts:** Searching for and finding cicadas is a fun and family-friendly activity
+- **Entomologists:** The phenomenon offers scientists a unique opportunity to delve deeper into the intricate world of these enigmatic vocalists. So, experts are leaping at the chance to further unravel the mysteries of cicada biogeography, evolutionary adaptations, and the ecological significance of their cyclical emergence,
+- **Pharmaceutical research scientists:** Understanding the phenomenon can have potential impact on medical research on fungal diseases in general (possibly in other animals),
+- **Cicada enthusiasts:** Searching for and finding cicadas is a fun and family-friendly activity.
 
 ## Project Overview
 
-- **Dataset:** The project uses images of healthy and infected cicadas from various websites such as National Library of Medicine, GenBank, iNaturalist (https://drive.google.com/drive/folders/1jU4Hkq3MYyvOOWER5Q3_TZXKH4Qzp95g?usp=sharing)
-- **Models:** Popular convolutional neural network architectures such as ResNet50, VGG16, VGG19 and InceptionV2 are used dataset for image classification.
+- **Dataset:** The project uses images of healthy and infected cicadas from various websites such as iNaturalist (see [2]) and images.cv (see [7]),
+- **Models:** Popular convolutional neural network architectures such as VGG16, VGG19 and InceptionV2 are used dataset for image classification (see [8]).
 
 ## Key Performance Indicators (KPIs)
 
@@ -31,16 +31,16 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 
 ### Terminology
 
-Here is a pdf file with definitions and terminology coming from neural networks and biology, which are needed for this project: [https://drive.google.com/file/d/1oY2c7W0Gb51phnkFppvvztYeUuuGK-Q4/view?usp=sharing](https://drive.google.com/file/d/1yj96EAhcNbxIWDwcLMoufSFzMHEO33rz/view?usp=sharing)
+The necessary terminology for this project comes from neural networks and biology. We refer the reader to [9]. 
 
 ### Very Deep Convolutional Networks for Large-Scale Image Recognition (VGG):
 #### VGG16
-The VGG-16 is one of the most popular pre-trained models for image classification. The VGG model has the following layers: convolutional layers = 13, pooling layers = 5, dense layers = 3. Here is the architecture of VGG-16:
+The VGG-16 is one of the most popular pre-trained models for image classification. The VGG model has the following layers: Convolutional Layers = 13, Pooling Layers = 5, Dense Layers = 3. Here is the architecture of VGG-16:
 
 ![vgg16-neural-network](https://github.com/DigDugData/Cicada-Zombies/assets/122245444/18756380-95db-41e0-8f45-7a01e0233132)
 
 #### VGG19
-VGG-19, also known as VGGNet-19, is a 19-layer convolutional neural network (CNN) that can classify images into 1,000 categories. It has the same basic structure as the VGG16 model, but with three additional convolutional layers. Architecture: The 16 convolutional layers are grouped into five blocks, with a MaxPooling layer after each block. The MaxPooling layer reduces the image size by half and doubles the number of convolution layer filters. The final three dense layers in block 6 have dimensions of 4096, 4096, and 1000, respectively. Here's the architecture of VGG19:
+VGG-19, also known as VGGNet-19, is a 19-layer convolutional neural network (CNN). It has the same basic structure as the VGG16 model, but with three additional convolutional layers. Architecture: The 16 convolutional layers are grouped into five blocks, with a MaxPooling layer after each block. The MaxPooling layer reduces the image size by half and doubles the number of convolution layer filters. The final three dense layers in block 6 have dimensions of 4096, 4096, and 1000, respectively. Here's the architecture of VGG19:
 ![resnet_arch-ezgif com-webp-to-jpg-converter](https://github.com/DigDugData/Cicada-Zombies/assets/122245444/102acd1f-d4e8-43b2-a93e-2d70f5f67a8e)
 
 ### InceptionV2
@@ -76,9 +76,9 @@ spring-as-two-broods-emerge-at-the-same-time
 
 [7] https://images.cv/dataset/cicada-image-classification-dataset
 
+[8] https://www.analyticsvidhya.com/blog/2020/08/top-4-pre-trained-models-for-image-classification-with-python-code/
 
-
-
+[9] [https://drive.google.com/file/d/1oY2c7W0Gb51phnkFppvvztYeUuuGK-Q4/view?usp=sharing](https://drive.google.com/file/d/1yj96EAhcNbxIWDwcLMoufSFzMHEO33rz/view?usp=sharing)
  
 
 

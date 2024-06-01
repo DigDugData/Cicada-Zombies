@@ -18,10 +18,10 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 
 ## Project Overview
 
-- **Dataset:** The project uses images of healthy and infected cicadas from the website iNaturalist (see [2]). We used three different data sets and ran the three models VGG16, VGG19 and InceptionV2 on each of the three data sets. Here are the three data sets we used:
-(a) https://drive.google.com/drive/folders/1lUIevYIklh7wMc_wprgK0JPmYvyjSWjn?usp=sharing (47% healthy, 53% infected)
-(b) https://drive.google.com/drive/folders/1fDDD6-m71PEcGHrk1am9Q6_RhZPa9sMA?usp=sharing (68% healthy, 32% infected),
-(c) https://drive.google.com/drive/folders/1XGuhpRTFM2U8Hha09kza5wdCymd-uWNu?usp=sharing (65% healthy, 35% infected).
+- **Dataset:** The project uses images of healthy and infected cicadas from the website iNaturalist (see [2]). We used three different data sets and ran the three models VGG16, VGG19 and InceptionV2 on each of the three data sets. Here is the percentage split between the number of healthy vs infected cicadas in these three data sets:
+(a) First data set: see [10] (47% healthy, 53% infected)
+(b) Second data set: see [11] (68% healthy, 32% infected),
+(c) Third data set: see [12] (65% healthy, 35% infected).
 We had to clean up our data sets by removing images with multiple cicadas or no cicadas. We stratified the data set into a 20% Test, 10% Validation and 70% Train.   
 
 - **Models:** Popular convolutional neural network architectures such as VGG16, VGG19 and InceptionV2 are used dataset for image classification (see [8]).
@@ -95,6 +95,12 @@ spring-as-two-broods-emerge-at-the-same-time
 [8] https://www.analyticsvidhya.com/blog/2020/08/top-4-pre-trained-models-for-image-classification-with-python-code/
 
 [9] [https://drive.google.com/file/d/1oY2c7W0Gb51phnkFppvvztYeUuuGK-Q4/view?usp=sharing](https://drive.google.com/file/d/1yj96EAhcNbxIWDwcLMoufSFzMHEO33rz/view?usp=sharing)
+
+[10] https://drive.google.com/drive/folders/1lUIevYIklh7wMc_wprgK0JPmYvyjSWjn?usp=sharing
+
+[11] https://drive.google.com/drive/folders/1fDDD6-m71PEcGHrk1am9Q6_RhZPa9sMA?usp=sharing
+
+[12] https://drive.google.com/drive/folders/1XGuhpRTFM2U8Hha09kza5wdCymd-uWNu?usp=sharing
  
 
 

@@ -40,6 +40,7 @@ The VGG-16 is one of the most popular pre-trained models for image classificatio
 ![vgg16-neural-network](https://github.com/DigDugData/Cicada-Zombies/assets/122245444/18756380-95db-41e0-8f45-7a01e0233132)
 
 #### VGG19
+VGG-19, also known as VGGNet-19, is a 19-layer convolutional neural network (CNN) that can classify images into 1,000 categories. It has the same basic structure as the VGG16 model, but with three additional convolutional layers. Architecture: The 16 convolutional layers are grouped into five blocks, with a MaxPooling layer after each block. The MaxPooling layer reduces the image size by half and doubles the number of convolution layer filters. The final three dense layers in block 6 have dimensions of 4096, 4096, and 1000, respectively
 ![resnet_arch-ezgif com-webp-to-jpg-converter](https://github.com/DigDugData/Cicada-Zombies/assets/122245444/102acd1f-d4e8-43b2-a93e-2d70f5f67a8e)
 
 ### InceptionV2

@@ -18,13 +18,7 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 
 ## Project Overview
 
-- **Dataset:** The project uses images of healthy and infected cicadas from the website iNaturalist (see [2]). We used three different data sets and ran the three models VGG16, VGG19 and InceptionV2 on each of the three data sets. Here is the percentage split between the number of healthy vs infected cicadas in these three data sets:
-
-(a) First data set: see [10] (47% healthy, 53% infected)
-
-(b) Second data set: see [11] (68% healthy, 32% infected),
-
-(c) Third data set: see [12] (65% healthy, 35% infected).
+- **Dataset:** The project uses images of healthy and infected cicadas from the website iNaturalist (see [2]). We used three different data sets and ran the three models VGG16, VGG19 and InceptionV2 on each of the three data sets. Here are the references to our three data sets together with the percentage split between the number of healthy vs infected cicadas: [10] (47% healthy, 53% infected), [11] (68% healthy, 32% infected), [12] (65% healthy, 35% infected).
 
 We had to clean up our data sets by removing images with multiple cicadas or no cicadas. We stratified the data set into a 20% Test, 10% Validation and 70% Train.   
 

@@ -35,7 +35,7 @@ The necessary terminology for this project comes from neural networks and biolog
 
 ### Very Deep Convolutional Networks for Large-Scale Image Recognition (VGG):
 #### VGG16
-The VGG-16 is one of the most popular pre-trained models for image classification. The VGG model has the following layers: Convolutional Layers = 13, Pooling Layers = 5, Dense Layers = 3. Here is the architecture of VGG-16:
+The VGG-16 is one of the most popular pre-trained models for image classification and it has 16 Convolutional Layers. Here is the architecture of VGG-16:
 
 ![vgg16-neural-network](https://github.com/DigDugData/Cicada-Zombies/assets/122245444/18756380-95db-41e0-8f45-7a01e0233132)
 

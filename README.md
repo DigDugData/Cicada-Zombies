@@ -52,6 +52,7 @@ We refer the reader to [8] for more detailed descriptions of these models.
 
 ## Possible Future Work
 
+- Improve the model performance further by increasing the size of the data set, 
 - Determine how bioclimatic variables influence infection rates in cicadas,
 - Examine how climate change and warmer soil temperatures impact the timing of emergence of cicadas,
 - Development of a final product possibly a mobile app.

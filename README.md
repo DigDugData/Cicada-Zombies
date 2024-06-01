@@ -17,7 +17,7 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 
 ## Project Overview
 
-- **Dataset:** The project uses images of healthy and infected cicadas from various websites such as iNaturalist (see [2]) and images.cv (see [7]),
+- **Dataset:** The project uses images of healthy and infected cicadas from the website iNaturalist (see [2]). Here are the three data sets we used: (https://drive.google.com/drive/folders/1lUIevYIklh7wMc_wprgK0JPmYvyjSWjn?usp=sharing, https://drive.google.com/drive/folders/1fDDD6-m71PEcGHrk1am9Q6_RhZPa9sMA?usp=sharing and https://drive.google.com/drive/folders/1XGuhpRTFM2U8Hha09kza5wdCymd-uWNu?usp=sharing)
 - **Models:** Popular convolutional neural network architectures such as VGG16, VGG19 and InceptionV2 are used dataset for image classification (see [8]).
 
 ## Key Performance Indicators (KPIs)

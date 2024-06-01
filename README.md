@@ -22,10 +22,10 @@ This spring, two broods of periodical cicadas (among seven) will emerge in parts
 
 ## Key Performance Indicators (KPIs)
 
-- F1 score
-- Model prediction precision
-- Model prediction recall
-- Model prediction accuracy
+- F1 score,
+- Model prediction precision,
+- Model prediction recall,
+- Model prediction accuracy.
 
 ## Neural Network Models
 

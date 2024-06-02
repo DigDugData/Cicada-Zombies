@@ -106,5 +106,5 @@ spring-as-two-broods-emerge-at-the-same-time
  
 [13] https://github.com/DigDugData/Cicada-Zombies/blob/main/Web%20Scraping/Disease_Cicada_photo_DL_code.ipynb
 
-[14] https://onedrive.live.com/edit?id=5000C2C5AE432C8!2435&resid=5000C2C5AE432C8!2435&ithint=file%2cxlsx&authkey=!AO60V_EBNIGIglY&wdo=2&cid=05000c2c5ae432c8
+[14] https://github.com/DigDugData/Cicada-Zombies/blob/main/cicadas_model_comparison.xlsx
 

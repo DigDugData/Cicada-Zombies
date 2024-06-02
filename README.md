@@ -58,6 +58,10 @@ The inception module performs convolutions with different filter sizes on the in
 
 We refer the reader to [8] for more detailed descriptions of these models. 
 
+## Model performance comparision on all three data sets
+
+See [13] for webscraping code to obtain the images of healthy and infected cicadas. We refer the reader to [14] for the model comparison. 
+
 ## Possible Future Work 
 
 - Improve the model performance further by either increasing the size of the data set or use augmentation of only the class of infected cicadas,
@@ -100,5 +104,7 @@ spring-as-two-broods-emerge-at-the-same-time
 
 [12] https://drive.google.com/drive/folders/1XGuhpRTFM2U8Hha09kza5wdCymd-uWNu?usp=sharing
  
+[13] https://github.com/DigDugData/Cicada-Zombies/blob/main/Web%20Scraping/Disease_Cicada_photo_DL_code.ipynb
 
+[14] https://onedrive.live.com/edit?id=5000C2C5AE432C8!2435&resid=5000C2C5AE432C8!2435&ithint=file%2cxlsx&authkey=!AO60V_EBNIGIglY&wdo=2&cid=05000c2c5ae432c8
 
